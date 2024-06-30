@@ -1,5 +1,5 @@
 def cifrar(mensaje: str, d: int):
-    alfabeto = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+    alfabeto = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z", " "]
     longitud_alfabeto = len(alfabeto)
     str_cifrado = ""
 
@@ -10,4 +10,3 @@ def cifrar(mensaje: str, d: int):
             str_cifrado += alfabeto[indice_desplazado]
 
     return str_cifrado
-
